@@ -1,7 +1,13 @@
 /* general */
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Optional: vertically center if header has height */
+}
+
 body {
-  background-color:#5d493e;
+  background-color:#E9DAC5;
   margin: 0;
 }
 
@@ -17,12 +23,11 @@ body {
 
 #logo {
   padding-top: 50px;
-    display: block;
-    text-align: center;
+  display: block; /* So it only takes the size of its content (the image) */
 }
 
 #logo img{
-    width: 300px;
+    width: 150px;
 }
 
 /* navigation */
@@ -42,13 +47,13 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: #4C6B3C;
     text-decoration: none;
     font-size: 20px;
 }
 
 nav a:hover {
-    color: #ff9725;
+    color: #911d0e;
 }
 
 .navigation {
@@ -64,7 +69,7 @@ nav a:hover {
     transform: translateX(-50%);
     z-index: 10; /* Stellt sicher, dass sie über den Slides bleiben */
     text-align:center;
-    color: #ff9725;
+    color: #911d0e;
     font-size: 50px;
 }
 
@@ -83,7 +88,7 @@ nav a:hover {
 
 p {
     font-size: 18px;
-    color: #fefefe;
+    color: #4C6B3C;
     line-height: 1.5; /* Adjusts the space between lines */
 }
 
@@ -103,8 +108,9 @@ table {
 }
 
 th, td {
-  padding: 12px;
-  color: #fefefe;
+  padding: 20px;
+  color: #4C6B3C;
+  font-size: 18px;
 }
 
 /* Spalte 1: linksbündig (Gerichte) */
@@ -121,15 +127,27 @@ td:nth-child(3) {
 }
 
 .Gerichte-Kategorie {
-  color: #ff9725;
-  font-size: 30px;
+  color: #911d0e;
+  font-size: 22px;
 }
 
 .Gerichte-Kategorie-Beschreibung {
-  color: #fefefe;
-  font-size: 15px;
+  color: #4C6B3C;
+  font-size: 18px;
 }
 
 .Allergene {
   font-size: 10px;
+}
+
+.carta-container {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    gap: 100px;
+    margin: 0 100px 0 100px;
+}
+
+.carta-container img {
+    max-width: 300px; /* Adjust size as needed */
 }

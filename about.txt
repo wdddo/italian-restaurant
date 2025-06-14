@@ -1,0 +1,9 @@
+| Farbe                   | Beschreibung           | Hex-Code  | Verwendung                          |
+| ----------------------- | ---------------------- | --------- | ----------------------------------- |
+| 🍝 **Spaghetti Gold**   | Warmer Nudelfarbton    | `#D4A857` | Spaghetti, warme Akzente            |
+| 🍅 **Tomatenrot**       | Italienisches Rot      | `#C24030` | Akzentfarbe (z. B. Flagge, Icons)   |
+| 🌿 **Olivgrün**         | Natürliches Grün       | `#4C6B3C` | Olive, Hintergrund, Rahmen          |
+| 🧄 **Cremeweiß**        | Helles, weiches Weiß   | `#F9F4E8` | Schrift, Hintergrund, Kontrastfarbe |
+| 🧢 **Kochmützen-Beige** | Neutraler Beigeton     | `#E9DAC5` | Mütze, neutrale Elemente            |
+| 🍷 **Weinrot**          | Tiefes, elegantes Rot  | `#911d0e` | Edle Details, Text, Akzent          |
+| 🫒 **Schwarzolive**     | Fast schwarzer Grünton | `#1B2A19` | Tiefer Kontrast, Details, Kontur    |
