@@ -96,12 +96,32 @@ p {
   width: 900px;
 }
 
-
-
 /* menue */
 
+.icon-carta-cow {
+  width: 25px;
+  max-height: 17px;
+  fill: #581616;
+  margin-right: 5px;
+}
+
+.icon-carta-leaf {
+  width: 15px;
+  max-height: 15px;
+  fill: green;
+  margin-right: 5px;
+}
+
+.icon-carta-fish {
+  width: 20px;
+  max-height: 15px;
+  fill: darkblue;
+  margin-right: 5px;
+}
+
+
 table {
-  width: 70%;
+  width: 80%;
   margin: 0 auto; /* zentriert die Tabelle horizontal */
   border-collapse: collapse;
   margin-bottom: 30px;
@@ -109,7 +129,7 @@ table {
 
 th, td {
   padding: 20px;
-  color: #4C6B3C;
+  color: black;
   font-size: 18px;
 }
 
@@ -150,4 +170,37 @@ td:nth-child(3) {
 
 .carta-container img {
     max-width: 300px; /* Adjust size as needed */
+}
+
+/* js */
+
+.hidden {
+  display: none;
+}
+
+.filter-buttons button.active {
+  background-color: white;
+}
+
+.filter-buttons button:hover {
+  background-color: white;
+}
+
+.filter-buttons b {
+  background-color: white;
+}
+
+.filter-buttons button {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 50px;
+  background: transparent;
+  border: 0;
+  padding: 10px;
+}
+
+.filter-buttons {
+  display:flex;
+  justify-content: center;
+  gap: 50px;
 }
